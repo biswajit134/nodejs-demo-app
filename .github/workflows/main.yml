@@ -43,8 +43,8 @@ jobs:
                username: ${{ secrets.DOCKER_USERNAME }}
                password: ${{ secrets.DOCKER_PASSWORD }}
 
-            - name: Push to Docker Hub
-              run: docker push biswajit134/nodejs-demo-app:latest
-
-
-
+            - name: Build and push
+              uses: docker/build-push-action@v6
+              with:
+               push: true
+               tags: biswajit134/nodejs-demo-app:latest
