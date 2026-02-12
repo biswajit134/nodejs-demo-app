@@ -4,8 +4,8 @@ function App() {
 
   return (
     <>
-      <h1>Github Actions</h1>
-      <h2>Complete course with 2 projects</h2>
+      <h1>DevOps Internship</h1>
+      <h2>TASK 1: Automate Code Deployment Using CI/CD Pipeline (GitHub Actions)</h2>
     </>
   )
 }
