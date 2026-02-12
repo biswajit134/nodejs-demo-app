@@ -33,3 +33,14 @@ jobs:
         steps:
             - name: Get Code
               uses: actions/checkout@v4
+
+            - name: Build Image
+              run: docker build -t biswajit134/nodejs-demo-app:latest .
+
+            - name: Login Dockerhub and Push
+              run: |
+                docker login -u ${{secrets.DOCKER_USERNAME}} -p ${{secrets.DOCKER_PASSWORD}}
+                docker push biswajit134/nodejs-demo-app:latest
+
+
+
