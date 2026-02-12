@@ -66,13 +66,3 @@ jobs:
             - name: Publish image to docker hub
               run: docker push biswajit134/node-app:latest 
               
-              
-    deploy:
-        needs: push
-        runs-on: ubuntu-latest
-        steps:
-            - name: run the image
-              run: docker run --name node -d -p 8000:80 biswajit134/node-app:latest
-
-            - name: print ip
-              run: echo "http://${hostname -I }.8000"
