@@ -26,3 +26,9 @@ jobs:
               run: npm ci 
             - name: Run Tests
               run: npm run test
+
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Get Code
+              uses: actions/checkout@v4
