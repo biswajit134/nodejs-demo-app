@@ -1,8 +1,7 @@
-# React + Vite
-## Learn
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# TASK 1: Automate Code Deployment Using CI/CD Pipeline (GitHub Actions)
+## •	Objective: Set up a CI/CD pipeline to build and deploy a web app.
+## •	Tools: GitHub, GitHub Actions, Node.js, Docker
+## •	Deliverables: GitHub repo with .yml CI/CD workflow
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Open the PDF 
+## https://drive.google.com/file/d/1JUd2Daul6zmi1i6QAgIY8sC7x8jaElWR/view?usp=sharing
